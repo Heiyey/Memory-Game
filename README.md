@@ -1,20 +1,67 @@
-<<<<<<< HEAD
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple memory card matching game built with React and Vite. Flip cards to find matching pairs — complete all matches to win.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Lightweight React + Vite app with HMR
+- Component-based UI: `Card`, `GameHeader`, `WinMessage`
+- Game logic encapsulated in `hooks/useGameLogic.js`
 
-## React Compiler
+## Quick Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Prerequisites: Node.js 16+ and npm or Yarn.
 
-## Expanding the ESLint configuration
+Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Memory-Game
->>>>>>> c88ec45111903f6471a33adee3005ec81acc699b
+```bash
+npm install
+# or
+yarn
+```
+
+Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Build for production:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## How to Play
+
+- Click a card to reveal it.
+- Click a second card to try to match the first.
+- Matching pairs remain revealed; non-matching pairs flip back.
+- Match all pairs to see the win message.
+
+## Project Structure (high level)
+
+- `src/` — application source
+  - `App.jsx`, `main.jsx`, `index.css`
+  - `components/` — `Card.jsx`, `GameHeader.jsx`, `WinMessage.jsx`
+  - `hooks/` — `useGameLogic.js`
+
+## Contributing
+
+Feel free to open issues or pull requests. Small, focused changes are easiest to review.
+
+---
+
+Enjoy the game!
