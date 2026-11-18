@@ -79,4 +79,4 @@ src/
 ## Author
 
 **Andrevis Jimenez** · Full Stack Developer
-[Portfolio](https://andrevis.dev) · [LinkedIn](https://www.linkedin.com/in/andrevis-j-76762b243/) · [GitHub](https://github.com/Heiyey)
+[Portfolio](https://andrevis.dev) · [LinkedIn](https://www.linkedin.com/in/andrevis-jimenez/) · [GitHub](https://github.com/Heiyey)
